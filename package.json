@@ -9,7 +9,8 @@
   "scripts": {
     "build": "yarn tsc -p ./tsconfig.json --incremental",
     "prepare": "yarn build",
-    "postinstall": "yarn build || exit 0"
+    "postinstall": "yarn build || exit 0",
+    "prepublish": "yarn build"
   },
   "author": "Google ISE Hardening Team",
   "license": "Apache-2.0",
