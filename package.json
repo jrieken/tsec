@@ -1,5 +1,5 @@
 {
-  "name": "tsec",
+  "name": "vscode-tsec",
   "version": "0.0.1",
   "description": "",
   "main": "lib/language_service_plugin.js",
